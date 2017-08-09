@@ -1,2 +1,11 @@
 c:\users\lucca.cavalcante\documents\visual studio 2015\Projects\Programacao\Programacao\bin\Debug\Programacao.exe.config
 C:\Users\lucca.cavalcante\Desktop\GitHub\Programacao_04_08_17\Programacao\bin\Debug\Programacao.exe.config
+C:\Users\gabriel.vieira\Desktop\GitHub\Programacao_04_08_17\Programacao\bin\Debug\Programacao.exe.config
+C:\Users\gabriel.vieira\Desktop\GitHub\Programacao_04_08_17\Programacao\bin\Debug\Programacao.exe
+C:\Users\gabriel.vieira\Desktop\GitHub\Programacao_04_08_17\Programacao\bin\Debug\Programacao.pdb
+C:\Users\gabriel.vieira\Desktop\GitHub\Programacao_04_08_17\Programacao\obj\Debug\Programacao.csprojResolveAssemblyReference.cache
+C:\Users\gabriel.vieira\Desktop\GitHub\Programacao_04_08_17\Programacao\obj\Debug\Programacao.Form1.resources
+C:\Users\gabriel.vieira\Desktop\GitHub\Programacao_04_08_17\Programacao\obj\Debug\Programacao.Properties.Resources.resources
+C:\Users\gabriel.vieira\Desktop\GitHub\Programacao_04_08_17\Programacao\obj\Debug\Programacao.csproj.GenerateResource.Cache
+C:\Users\gabriel.vieira\Desktop\GitHub\Programacao_04_08_17\Programacao\obj\Debug\Programacao.exe
+C:\Users\gabriel.vieira\Desktop\GitHub\Programacao_04_08_17\Programacao\obj\Debug\Programacao.pdb
