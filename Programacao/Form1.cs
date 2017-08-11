@@ -12,6 +12,11 @@ namespace Programacao
 {
     public partial class Form1 : Form
     {
+        public int max;
+        public int min;
+        public Random rnd = new Random();
+        public int result;
+
         public Form1()
         {
             InitializeComponent();
@@ -19,17 +24,15 @@ namespace Programacao
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            textBox1.Text = "Título";
+            textBox1.Text = "Av1 - 2003 : Gabriel Figueiredo, Gilherme de Lima e Julia dos Santos";
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            result = rnd.Next(min, max + 1);
             textBox2.AppendText("\n");
-            textBox2.AppendText("Apertei porra" );
-
-            checkBox1.Enabled = !checkBox1.Enabled;
-
-           
+            textBox2.AppendText("Apertei o botão e o resultado foi: " + result);
+            label2.Text = "Valor Random: " + result;
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -49,24 +52,18 @@ namespace Programacao
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
-            if (checkBox1.Checked)
-            {
-                textBox2.AppendText("\n");
-                textBox2.AppendText("Shazan carai");
-            }
         }
 
         private void trackBar1_Scroll(object sender, EventArgs e)
         {
-            if(trackBar1.Value == 5)
-            {
-                textBox2.AppendText("\n");
-                textBox2.AppendText("Só vai");
-            }
+            label1.Text = "Valor MAX: " + trackBar1.Value.ToString();
+            max = trackBar1.Value;
+           
+        }
 
-            label1.Text = trackBar1.Value.ToString();
+        private void trackBar2_Scroll(object sender, EventArgs e)
+        {
 
-            
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
@@ -82,6 +79,12 @@ namespace Programacao
         private void label1_Click(object sender, EventArgs e)
         {
             
+        }
+
+        private void trackBar2_Scroll_1(object sender, EventArgs e)
+        {
+            label3.Text = "Valor MIN: " + trackBar2.Value.ToString();
+            min = trackBar2.Value;
         }
     }
 }
